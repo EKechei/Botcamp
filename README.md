@@ -12,10 +12,10 @@ This project allows you to deploy a highly available, scalable, and secure multi
 3. **Database Tier**: The database stores and manages the application data. We are using Amazon RDS for a managed database service in this architecture.
 
 ## Table of Contents
-* [Features](#-features)
-* [Web Tier](#-web-tier)
-* [Application Tier](#-application-tier)
-* [Database Tier](#-database-tier)
+* [Features](#features)
+* [Web Tier](#web-tier)
+* [Application Tier](#application-tier)
+* [Database Tier](#database-tier)
   
 ## Features <a id="features"></a>
 

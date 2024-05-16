@@ -49,7 +49,7 @@ The Database Tier stores and manages our application data. We use Amazon RDS for
 
 ## Deployment
 
-1. Initialize Terraform and apply the configuration:
+Initialize Terraform and apply the configuration:
    ```
    terraform init
    ```

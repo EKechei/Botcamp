@@ -16,7 +16,7 @@ This project allows you to deploy a highly available, scalable, and secure multi
 * [Web Tier](#web-tier)
 * [Application Tier](#application-tier)
 * [Database Tier](#database-tier)
-# Features
+## Features <a id="features"></a>
 - **High Availability**: The architecture is designed for fault tolerance and redundancy.
 - **Scalability**: Easily scale the web and application tiers to handle varying workloads.
 - **Security**: Security groups and network ACLs are configured to ensure a secure environment.

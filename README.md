@@ -23,7 +23,7 @@ This project allows you to deploy a highly available, scalable, and secure multi
 - **Scalability**: Easily scale the web and application tiers to handle varying workloads.
 - **Security**: Security groups and network ACLs are configured to ensure a secure environment.
 
-## Web Tier
+## Web Tier <a id="web-tier"></a>
 
 The Web Tier includes:
 
@@ -31,7 +31,7 @@ The Web Tier includes:
 - **Auto Scaling**: Automatically adjusts the number of web servers based on traffic.
 - **Security Groups**: Controls incoming and outgoing traffic to the web servers.
 
-## 🚀 Application Tier
+## Application Tier <a id="application-tier"></a>
 
 The Application Tier hosts the application servers responsible for running business logic and interacting with the database tier. Key components include:
 
@@ -39,3 +39,23 @@ The Application Tier hosts the application servers responsible for running busin
 - **Load Balancer**: Distributes traffic to the application servers.
 - **Auto Scaling**: Automatically adjusts the number of web servers based on traffic.
 - **Security Groups**: Controls incoming and outgoing traffic to the application servers.
+
+## Database Tier <a id="database-tier"></a>
+
+The Database Tier stores and manages our application data. We use Amazon RDS for a managed database service. Key components include:
+
+- **Amazon RDS**: A managed database service for MySQL/PostgreSQL/SQL Server databases.
+- **Security Groups**: Control incoming and outgoing traffic to the database.
+
+## Deployment
+
+1. Initialize Terraform and apply the configuration:
+   ```
+   terraform init
+   ```
+   ```
+   terraform plan
+   ```
+   ```
+   terraform apply
+   ```

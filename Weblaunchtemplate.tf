@@ -11,10 +11,11 @@ resource "aws_launch_template" "weblt" {
     associate_public_ip_address = true
   } 
 
- user_data = filebase64("${path.module}/script.sh")
+   user_data = filebase64("script.sh")
 
 
 }
+
 
 
 

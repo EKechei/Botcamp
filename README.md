@@ -11,12 +11,12 @@ This project allows you to deploy a highly available, scalable, and secure multi
 2. **Application Tier**:  Application servers run the business logic and interact with the database tier. They can also be horizontally scaled to meet demand.
 3. **Database Tier**: The database stores and manages the application data. We are using Amazon RDS for a managed database service in this architecture.
 
-# Table of Contents
-### Features
+## Table of Contents
+*[Features](#features)
 ### Web Tier
 ### Application Tier
 ### Database Tier
-# Features<a id="features"></a>
+# Features
 - **High Availability**: The architecture is designed for fault tolerance and redundancy.
 - **Scalability**: Easily scale the web and application tiers to handle varying workloads.
 - **Security**: Security groups and network ACLs are configured to ensure a secure environment.

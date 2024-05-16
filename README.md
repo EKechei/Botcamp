@@ -25,3 +25,17 @@ This project allows you to deploy a highly available, scalable, and secure multi
 
 ## Web Tier
 
+The Web Tier includes:
+
+- **Load Balancer**: Distributes traffic across multiple web servers.
+- **Auto Scaling**: Automatically adjusts the number of web servers based on traffic.
+- **Security Groups**: Controls incoming and outgoing traffic to the web servers.
+
+## 🚀 Application Tier
+
+The Application Tier hosts the application servers responsible for running business logic and interacting with the database tier. Key components include:
+
+- **Application Servers**: These run your application code and can be horizontally scaled.
+- **Load Balancer**: Distributes traffic to the application servers.
+- **Auto Scaling**: Automatically adjusts the number of web servers based on traffic.
+- **Security Groups**: Controls incoming and outgoing traffic to the application servers.
